@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.text1 {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    background: hotpink;
+    padding: 20px;
+}
+
+.text1 :hover {
+    color: blue;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aquamarine;
+    background: black;
+    padding: 20px;text-align: center;
+}
+
+li {
+    color: black;
+}
+
+ul {
+    background-color: aqua;
+}
+
+#list li:first-child {
+    background: teal;
+    color: white;
+}
+
+#list li:last-child {
+    background-color: black;
+    color: white;
+}
+
+#list + strong {
+    background-color: blueviolet;
+    color: white;
+}
+
+ul a[href*="lms"] {
+    color: red;
+}
+
+div > .links {
+    
+    background: pink;
+    text-align: center;
+}
+
+p span {
+    color: white;
+    background: darkgreen;
+}
+
+h5 {
+    margin-top: 20px;
+    font-size: 20px;
+}
